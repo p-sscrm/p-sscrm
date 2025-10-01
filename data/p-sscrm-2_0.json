@@ -330,7 +330,8 @@
                 },
                 {
                   "sections": [
-                    "Distributing provenance"
+                    "Distributing provenance",
+                    "Source L3: Signed and auditable provenance"
                   ],
                   "source": "SLSA"
                 },
@@ -441,6 +442,12 @@
                     "PS.3.2 C1"
                   ],
                   "source": "SSDF AI"
+                },
+                {
+                  "sections": [
+                    "Source L3: Signed and auditable provenance"
+                  ],
+                  "source": "SLSA"
                 },
                 {
                   "sections": [
@@ -958,6 +965,7 @@
                   "sections": [
                     "SA-1",
                     "SA-4",
+                    "SI-3",
                     "SA-9",
                     "SR-4",
                     "SR-5",
@@ -1513,7 +1521,7 @@
                 },
                 {
                   "sections": [
-                    "SA-8"
+                    "SA-8", "SA-17"
                   ],
                   "source": "800-161"
                 },
@@ -1586,7 +1594,8 @@
                 },
                 {
                   "sections": [
-                    "Distributing provenance"
+                    "Distributing provenance",
+                    "Source L3: Signed and auditable provenance"
                   ],
                   "source": "SLSA"
                 },
@@ -1726,6 +1735,12 @@
                     "V-RT-2-B"
                   ],
                   "source": "SAMM"
+                },
+                { 
+                  "sections": [
+                    "SA-17"
+                  ],
+                  "source": "800-161"
                 },
                 {
                   "sections": [
@@ -2024,13 +2039,14 @@
                 },
                 {
                   "sections": [
-                    "CM-7"
+                    "CM-7",
+                    "SI-3"
                   ],
                   "source": "800-161"
                 },
                 {
                   "sections": [
-                    "Binary-artifacts; contributors"
+                    "binary-artifacts","contributors","maintained"
                   ],
                   "source": "OSSF Scorecard"
                 },
@@ -2196,7 +2212,7 @@
                 },
                 {
                   "sections": [
-                    "SR-3", "SR-4", "SR-11"
+                    "SI-3", "SR-3", "SR-4", "SR-11"
                   ],
                   "source": "800-161"
                 },
@@ -2327,13 +2343,19 @@
                 },
                 {
                   "sections": [
+                    " Source L4: Two-party review"
+                  ],
+                  "source": "SLSA"
+                },
+                {
+                  "sections": [
                     "CR1.2", "CR1.4", "CR2.8", "CR2.6", "CR2.7", "CR3.4", "CR3.5"
                   ],
                   "source": "BSIMM"
                 },
                 {
                   "sections": [
-                    "Code review"
+                    "code-review"
                   ],
                   "source": "OSSF Scorecard"
                 },
@@ -2458,7 +2480,7 @@
                 },
                 {
                   "sections": [
-                    "SAST; Fuzzing"
+                    "sast","fuzzing"
                   ],
                   "source": "OSSF Scorecard"
                 },
@@ -2496,7 +2518,7 @@
               ]
             },
             {
-              "definition": "Review, analyze, and/or test the software’s code to identify or confirm the presence, remediation, and disclosure of previously undetected vulnerabilities. Record and triage discovered issues and recommended remediations in the development team’s workflow or issue-tracking system.",
+              "definition": "Review, analyze, and/or test the software’s code, and the tools used to build it, to identify or confirm the presence, remediation, and disclosure of previously undetected vulnerabilities. Record and triage discovered issues and recommended remediations in the development team’s workflow or issue-tracking system.",
               "id": "P.4.3",
               "name": "Automated vulnerability detection",
               "objective": "Detect vulnerabilities before deployment through the use of automated tools to reduce the window of opportunity for attackers",
@@ -2504,6 +2526,11 @@
                 {
                   "id": "P.4.3.1",
                   "text": "How is code reviewed, analyzed, and tested to identify or confirm the presence, remediation, and disclosure of previously-undetected vulnerabilities such as through automated tools?",
+                  "answers": []
+                },
+                {
+                  "id": "P.4.3.2",
+                  "text": "How are the tools in the build and deploy pipelines reviewed, analyzed, and tested to identify or confirm the presence, remediation, and disclosure of previously-undetected vulnerabilities such as through automated tools?",
                   "answers": []
                 }
               ],
@@ -2643,7 +2670,7 @@
                 },
                 {
                   "sections": [
-                    "CI-Tests"
+                    "ci-tests"
                   ],
                   "source": "OSSF Scorecard"
                 },
@@ -2883,7 +2910,7 @@
                 },
                 {
                   "sections": [
-                    "Dependency update tool"
+                    "dependency-update-tool"
                   ],
                   "source": "OSSF Scorecard"
                 },
@@ -2948,6 +2975,12 @@
                     "PS.3.1 N1"
                   ],
                   "source": "SSDF AI"
+                },
+                {
+                  "sections": [
+                    "Source L3: Signed and auditable provenance"
+                  ],
+                  "source": "SLSA"
                 },
                 {
                   "sections": [
@@ -3023,6 +3056,12 @@
                     "4.10"
                   ],
                   "source": "OWASP SCVS"
+                },
+               {
+                  "sections": [
+                    "Source L1:  Version controlled"
+                  ],
+                  "source": "SLSA"
                 },
                 {
                   "sections": [
@@ -3110,7 +3149,7 @@
               "references": [
                 {
                   "sections": [
-                    "Branch protection"
+                    "branch-protection"
                   ],
                   "source": "OSSF Scorecard"
                 },
@@ -3119,6 +3158,12 @@
                     "4.17"
                   ],
                   "source": "OWASP SCVS"
+                },
+                {
+                  "sections": [
+                    "Source L3: Signed and auditable provenance"
+                  ],
+                  "source": "SLSA"
                 },
                 {
                   "sections": [
@@ -3148,6 +3193,12 @@
                     "5.8"
                   ],
                   "source": "OWASP SCVS"
+                },
+                {
+                  "sections": [
+                    "SA-22"
+                  ],
+                  "source": "800-161"
                 }
               ]
             }
@@ -3212,9 +3263,20 @@
                   "id": "E.2.2.3",
                   "text": "Do you validate that the build environment\u0027s sources and dependencies come from a secure, trusted source of truth?",
                   "answers": []
+                },
+                {
+                  "id": "E.2.2.4",
+                  "text": "What is your dependency version constraint strategy, e.g. how do you manage pinning and floating versions of your dependencies?",
+                  "answers": []
                 }
               ],
               "references": [
+                {
+                  "sections": [
+                    "pinned-dependencies"
+                  ],
+                  "source": "OSSF Scorecard"
+                },
                 {
                   "sections": [
                     "Verifying artifacts"
@@ -3380,7 +3442,8 @@
                 },
                 {
                   "sections": [
-                    "Build L2: Hosted build platform"
+                    "Build L2: Hosted build platform",
+                    "Source L3: Signed and auditable provenance"
                   ],
                   "source": "SLSA"
                 },
@@ -3392,7 +3455,7 @@
                 },
                 {
                   "sections": [
-                    "Dangerous workflow; token permissions; pinned-dependencies"
+                    "dangerous-workflow","token-permissions", "pinned-dependencies"
                   ],
                   "source": "OSSF Scorecard"
                 },
@@ -3495,11 +3558,22 @@
               "questions": [
                 {
                   "id": "E.2.7.1",
-                  "text": "Do you write artifacts from the build to a separate shared storage from the inputs?",
+                  "text": "How does the project store the build artifacts?",
+                  "answers": []
+                },
+                {
+                  "id": "E.2.7.2",
+                  "text": "How does the project build and publish official packages?",
                   "answers": []
                 }
               ],
               "references": [
+                {
+                  "sections": [
+                    "packaging"
+                  ],
+                  "source": "OSSF Scorecard"
+                },
                 {
                   "sections": [
                     "BP-CE: Write output to a separate secured storage repo"
@@ -4035,7 +4109,7 @@
                 },
                 {
                   "sections": [
-                    "Vulnerabilities, maintained"
+                    "vulnerabilities"
                   ],
                   "source": "OSSF Scorecard"
                 }
@@ -4116,6 +4190,12 @@
                     "I-DM-2-A"
                   ],
                   "source": "SAMM"
+                },
+                {
+                  "sections": [
+                    "security-policy"
+                  ],
+                  "source": "OSSF Scorecard"
                 }
               ]
             },
