@@ -1,0 +1,58 @@
+{
+    "roles": [
+      {
+        "id": "SS",
+        "name": "Software Security",
+        "description": "Owns the secure SDLC: sets security requirements and policy, runs reviews, and drives the supply chain risk program.",
+        "tasks": ["G.1.1","G.1.2","G.1.3","G.1.5","G.2.1","G.2.2","G.2.3","G.2.4","G.2.5","G.2.6","G.3.1","G.3.2","G.4.1","G.4.2","G.4.3","G.5.1","G.5.2","G.5.3","G.5.4","P.1.1","P.1.2","P.2.1","P.2.2","P.2.6","P.3.1","P.3.2","P.3.3","P.3.4","P.4.1","P.4.2"]
+      },
+      {
+        "id": "BM",
+        "name": "Business Management",
+        "description": "Accountable for compliance, third-party and supplier obligations, budget, and organizational risk acceptance.",
+        "tasks": ["G.1.2","G.2.5","G.2.6","G.3.1","G.3.2","G.3.3","G.3.4","G.3.5","G.4.1","G.4.2","G.5.1","G.5.2","P.1.2","P.3.2","P.3.4"]
+      },
+      {
+        "id": "A",
+        "name": "Architect",
+        "description": "Designs the system and its trust boundaries; makes secure design, component, and toolchain decisions.",
+        "tasks": ["G.2.5","P.1.1","P.2.3","P.2.4","P.2.5","P.2.6","P.3.1","P.4.2"]
+      },
+      {
+        "id": "DD",
+        "name": "Developer / Developing",
+        "description": "Writes and integrates code and dependencies following secure development practices.",
+        "tasks": ["G.2.4","G.4.3","P.2.1","P.2.2","P.2.3","P.2.4","P.2.5","P.3.1","P.3.3","P.3.4","P.4.1"]
+      },
+      {
+        "id": "DT",
+        "name": "Developer / Testing",
+        "description": "Builds and runs security test and scanning tooling; validates fixes.",
+        "tasks": ["P.4.2"]
+      },
+      {
+        "id": "IT",
+        "name": "Information Technology",
+        "description": "Runs the development infrastructure and identity and access for the SDLC environment.",
+        "tasks": ["G.1.1","G.2.5","P.3.4"]
+      },
+      {
+        "id": "OB",
+        "name": "Operations / Build",
+        "description": "Owns the build system and pipeline integrity, provenance, and hardening.",
+        "tasks": ["G.1.3","G.1.4","G.1.5","P.4.2"]
+      },
+      {
+        "id": "OD",
+        "name": "Operations / Deploy",
+        "description": "Owns release, deployment, and the integrity of artifacts reaching production.",
+        "tasks": ["G.1.4","P.4.2"]
+      },
+      {
+        "id": "PJM",
+        "name": "Project Manager (Proposed)",
+        "description": "Proposed role: coordinates security work across teams and tracks remediation.",
+        "tasks": ["G.1.5"]
+      }
+    ]
+  }
