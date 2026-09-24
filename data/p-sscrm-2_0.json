@@ -92,13 +92,6 @@
                     "2"
                   ],
                   "source": "Self-attestation"
-                },
-                {
-                  "sections": [
-                    "G-PC-1-A",
-                    "G-PC-2-B"
-                  ],
-                  "source": "SAMM"
                 }
               ]
             },
@@ -152,13 +145,6 @@
                     "M-A: Managing software licenses"
                   ],
                   "source": "CNCF-SSC"
-                },
-                {
-                  "sections": [
-                    "OSPS-LE-02",
-                    "OSPS-LE-03"
-                  ],
-                  "source": "OSPS"
                 }
               ]
             },
@@ -261,18 +247,6 @@
                     "A-A Use a store to manage metadata from in-toto"
                   ],
                   "source": "CNCF-SSC"
-                },
-                {
-                  "sections": [
-                    "I-SB-3-A"
-                  ],
-                  "source": "SAMM"
-                },
-                {
-                  "sections": [
-                    "OSPS-DO-03"
-                  ],
-                  "source": "OSPS"
                 }
               ]
             },
@@ -371,21 +345,6 @@
                     "3"
                   ],
                   "source": "Self-attestation"
-                },
-                {
-                  "sections": [
-                    "I-SB-2-B"
-                  ],
-                  "source": "SAMM"
-                },
-                {
-                  "sections": [
-                     "OSPS-BR-02",  		
-                     "OSPS-BR-04",
-                     "OSPS-DO-06",
-                     "OSPS-QA-02"
-                  ],
-                  "source": "OSPS"
                 }
               ]
             },
@@ -491,18 +450,6 @@
                     "3"
                   ],
                   "source": "Self-attestation"
-                },
-                {
-                  "sections": [
-                    "I-SB-2-B"
-                  ],
-                  "source": "SAMM"
-                },
-                {
-                  "sections": [
-                     "OSPS-QA-02"
-                  ],
-                  "source": "OSPS"
                 }
               ]
             }
@@ -561,12 +508,6 @@
                     "CP2.5"
                   ],
                   "source": "BSIMM"
-                },
-                {
-                  "sections": [
-                    "G-SM-2-A"
-                  ],
-                  "source": "SAMM"
                 }
               ]
             },
@@ -636,20 +577,6 @@
                     "4"
                   ],
                   "source": "Self-attestation"
-                },
-                {
-                  "sections": [
-                    "G-SM-2-B",
-                    "G-PC-1-A",
-                    "G-PC-1-B"
-                  ],
-                  "source": "SAMM"
-                },
-                {
-                  "sections": [
-                     "OSPS-VM-04"
-                  ],
-                  "source": "OSPS"
                 }
               ]
             },
@@ -703,18 +630,6 @@
                     "SA-3"
                   ],
                   "source": "800-161"
-                },
-                {
-                  "sections": [
-                    "G-EG-2-B"
-                  ],
-                  "source": "SAMM"
-                },
-                {
-                  "sections": [
-                     "OSPS-GV-01"
-                  ],
-                  "source": "OSPS"
                 }
               ]
             },
@@ -774,20 +689,6 @@
                     "4"
                   ],
                   "source": "Self-attestation"
-                },
-                {
-                  "sections": [
-                    "G-PC-1-A"
-                  ],
-                  "source": "SAMM"
-                },
-                {
-                  "sections": [
-                     "OSPS-DO-06", 
-                     "OSPS-GV-03",
-                     "OSPS-QA-07"
-                  ],
-                  "source": "OSPS"
                 }
               ]
             },
@@ -848,12 +749,6 @@
                     "M-V Track dependencies between open source components"
                   ],
                   "source": "CNCF-SSC"
-                },
-                {
-                  "sections": [
-                     "OSPS-QA-02"
-                  ],
-                  "source": "OSPS"
                 }
               ]
             },
@@ -881,12 +776,6 @@
                     "SC-28"
                   ],
                   "source": "800-161"
-                },
-                {
-                  "sections": [
-                     "OSPS-AC-01"
-                  ],
-                  "source": "OSPS"
                 }
               ]
             }
@@ -998,12 +887,6 @@
                     "3"
                   ],
                   "source": "Self-attestation"
-                },
-                {
-                  "sections": [
-                    "D-SR-3-B"
-                  ],
-                  "source": "SAMM"
                 }
               ]
             },
@@ -1179,12 +1062,6 @@
                     "SA-16"
                   ],
                   "source": "800-161"
-                },
-                {
-                  "sections": [
-                    "G-EG-2-A"
-                  ],
-                  "source": "SAMM"
                 }
               ]
             },
@@ -1270,20 +1147,6 @@
                     "2"
                   ],
                   "source": "Self-attestation"
-                },
-                {
-                  "sections": [
-                    "I-SB-2-B",
-                    "V-ST-2-A",
-                    "O-EM-3-B"
-                  ],
-                  "source": "SAMM"
-                },
-                {
-                  "sections": [
-                     "OSPS-SA-03"
-                  ],
-                  "source": "OSPS"
                 }
               ]
             }
@@ -1319,13 +1182,6 @@
                     "RA-9"
                   ],
                   "source": "800-161"
-                },
-                {
-                  "sections": [
-                     "OSPS-DO-01",
-                     "OSPS-SA-01"
-                  ],
-                  "source": "OSPS"
                 }
               ]
             },
@@ -1366,12 +1222,6 @@
                     "SM3.5"
                   ],
                   "source": "BSIMM"
-                },
-                {
-                  "sections": [
-                     "OSPS-SA-03"
-                  ],
-                  "source": "OSPS"
                 }
               ]
             },
@@ -1400,12 +1250,6 @@
                     "SM3.3"
                   ],
                   "source": "BSIMM"
-                },
-                {
-                  "sections": [
-                     "OSPS-QA-03"
-                  ],
-                  "source": "OSPS"
                 }
               ]
             },
@@ -1459,21 +1303,6 @@
                     "4"
                   ],
                   "source": "Self-attestation"
-                },
-                {
-                  "sections": [
-                    "G-SM-3-B"
-                  ],
-                  "source": "SAMM"
-                },
-                {
-                  "sections": [
-                     "OSPS-QA-03",
-                     "OSPS-QA-04",
-                     "OSPS-VM-05",
-                     "OSPS-VM-06"
-                  ],
-                  "source": "OSPS"
                 }
               ]
             }
@@ -1552,19 +1381,6 @@
                     "SA-8", "SA-17"
                   ],
                   "source": "800-161"
-                },
-                {
-                  "sections": [
-                    "D-SR-2-A",
-                    "D-SA-2-B"
-                  ],
-                  "source": "SAMM"
-                },
-                {
-                  "sections": [
-                     "OSPS-SA-01"
-                  ],
-                  "source": "OSPS"
                 }
               ]
             },
@@ -1653,21 +1469,7 @@
                     "REB-2"
                   ],
                   "source": "S2C2F"
-                },
-                {
-                  "sections": [
-                    "I-SD-3-A"
-                  ],
-                  "source": "SAMM"
-                },
-                {
-                  "sections": [
-                     "OSPS-BR-06",
-                     "OSPS-DO-03"
-                  ],
-                  "source": "OSPS"
                 }
-
               ]
             }
           ]
@@ -1747,28 +1549,11 @@
                   ],
                   "source": "Self-attestation"
                 },
-                {
-                  "sections": [
-                    "D-TA-2-A",
-                    "D-TA-1-B",
-                    "V-AA-1-B",
-                    "V-AA-2-A",
-                    "V-RT-2-A",
-                    "V-RT-2-B"
-                  ],
-                  "source": "SAMM"
-                },
                 { 
                   "sections": [
                     "SA-17"
                   ],
                   "source": "800-161"
-                },
-                {
-                  "sections": [
-                     "OSPS-SA-03"
-                  ],
-                  "source": "OSPS"
                 }
               ]
             },
@@ -1820,18 +1605,6 @@
                     "4"
                   ],
                   "source": "Self-attestation"
-                },
-                {
-                  "sections": [
-                    "D-SA-1-A"
-                  ],
-                  "source": "SAMM"
-                },
-                {
-                  "sections": [
-                     "OSPS-GV-03"
-                  ],
-                  "source": "OSPS"
                 }
               ]
             },
@@ -1884,22 +1657,6 @@
                     "4"
                   ],
                   "source": "Self-attestation"
-                },
-                {
-                  "sections": [
-                    "D-SA-1-A",
-                    "V-AA-1-A",
-                    "I-SD-1-A",
-                    "O-EM-2-A"
-                  ],
-                  "source": "SAMM"
-                },
-                {
-                  "sections": [
-                     "OSPS-AC-02",
-                     "OSPS-BR-01"
-                  ],
-                  "source": "OSPS"
                 }
               ]
             },
@@ -1939,12 +1696,6 @@
                     "SFD1.1", "SFD3.2"
                   ],
                   "source": "BSIMM"
-                },
-                {
-                  "sections": [
-                    "D-SA-2-A"
-                  ],
-                  "source": "SAMM"
                 }
               ]
             },
@@ -1995,13 +1746,6 @@
                     "M-A Scan software for vulnerabilities"
                   ],
                   "source": "CNCF-SSC"
-                },
-                {
-                  "sections": [
-                    "D-SA-2-B",
-                    "D-SA-2-A"
-                  ],
-                  "source": "SAMM"
                 }
               ]
             },
@@ -2118,15 +1862,6 @@
                     "M: Second and third-party risk management"
                   ],
                   "source": "CNCF-SSC"
-                },
-                {
-                  "sections": [
-                     "OSPS-BR-05",
-                     "OSPS-DO-03",
-                     "OSPS-DO-06",
-                     "OSPS-QA-02"
-                  ],
-                  "source": "OSPS"
                 }
               ]
             },
@@ -2166,19 +1901,6 @@
                     "M-V: Define trusted package managers, repositories, and libraries"
                   ],
                   "source": "CNCF-SSC"
-                },
-                {
-                  "sections": [
-                     "OSPS-AC-03",
-                     "OSPS-AC-04",
-                     "OSPS-BR-01",
-                     "OSPS-BR-06",
-                     "OSPS-DO-03",
-                     "OSPS-DO-06",
-                     "OSPS-QA-02"
-
-                  ],
-                  "source": "OSPS"
                 }
               ]
             },
@@ -2208,16 +1930,6 @@
                     "SC-V Require verification attestations / confirmation"
                   ],
                   "source": "CNCF-SSC"
-                },
-                {
-                  "sections": [
-                     "OSPS-AC-01",
-                     "OSPS-BR-06",
-                     "OSPS-DO-03",
-                     "OSPS-QA-07"
-
-                  ],
-                  "source": "OSPS"
                 }
               ]
             },
@@ -2308,18 +2020,6 @@
                     "2", "3"
                   ],
                   "source": "Self-attestation"
-                },
-                {
-                  "sections": [
-                    "I-SB-3-B"
-                  ],
-                  "source": "SAMM"
-                },
-                {
-                  "sections": [
-                     "OSPS-DO-06"
-                  ],
-                  "source": "OSPS"
                 }
               ]
             }
@@ -2401,23 +2101,6 @@
                     "4"
                   ],
                   "source": "Self-attestation"
-                },
-                {
-                  "sections": [
-                    "V-ST-3-B",
-                    "V-ST-3-A"
-                  ],
-                  "source": "SAMM"
-                },
-                {
-                  "sections": [
-                     "OSPS-QA-03",
-                     "OSPS-QA-06",
-                     "OSPS-VM-05",
-                     "OSPS-VM-06"
-
-                  ],
-                  "source": "OSPS"
                 }
               ]
             },
@@ -2528,25 +2211,6 @@
                     "1f, 2, 3"
                   ],
                   "source": "Self-attestation"
-                },
-                {
-                  "sections": [
-                    "I-SB-2-A",
-                    "I-SD-2-A",
-                    "I-SB-3-A"
-
-                  ],
-                  "source": "SAMM"
-                },
-                {
-                  "sections": [
-                     "OSPS-QA-03",
-                     "OSPS-QA-06",
-                     "OSPS-VM-05",
-                     "OSPS-VM-06"
-
-                  ],
-                  "source": "OSPS"
                 }
               ]
             },
@@ -2621,21 +2285,6 @@
                     "3", "4"
                   ],
                   "source": "Self-attestation"
-                },
-                {
-                  "sections": [
-                    "V-ST-3-B",
-                    "V-ST-2-A"
-                  ],
-                  "source": "SAMM"
-                },
-                {
-                  "sections": [
-                     "OSPS-QA-06",
-                     "OSPS-VM-05",
-                     "OSPS-VM-06"
-                  ],
-                  "source": "OSPS"
                 }
               ]
             },
@@ -2720,24 +2369,6 @@
                     "2", "4"
                   ],
                   "source": "Self-attestation"
-                },
-                {
-                  "sections": [
-                    "G-PC-1-A",
-                    "V-RT-2-A",
-                    "V-RT-2-B",
-                    "V-ST-3-A",
-                    "V-ST-3-B"
-                  ],
-                  "source": "SAMM"
-                },
-                {
-                  "sections": [
-                     "OSPS-QA-06",
-                     "OSPS-VM-05",
-                     "OSPS-VM-06"
-                  ],
-                  "source": "OSPS"
                 }
               ]
             },
@@ -2809,23 +2440,10 @@
                 },
                 {
                   "sections": [
-                    "I-SB-3-B",
-                    "D-SR-2-B"
-                  ],
-                  "source": "SAMM"
-                },
-                {
-                  "sections": [
                     "BP-SA Deploy monitoring tools to detect malicious behavior",
                     "D-A Continuous vulnerability scanning"
                   ],
                   "source": "CNCF-SSC"
-                },
-                {
-                  "sections": [
-                     "OSPS-VM-05",
-                     "OSPS-VM-06"                  ],
-                  "source": "OSPS"
                 }
               ]
             }
@@ -2897,12 +2515,6 @@
                     "M-V: Require SBOMs and VEX statements from third-party suppliers", "M-V Track dependencies between open source components"
                   ],
                   "source": "CNCF-SSC"
-                },
-                {
-                  "sections": [
-                     "OSPS-QA-02"
-                  ],
-                  "source": "OSPS"
                 }
               ]
             },
@@ -2969,12 +2581,6 @@
                     "UPD-1, UPD-2, UPD-3"
                   ],
                   "source": "S2C2F"
-                },
-                {
-                  "sections": [
-                     "OSPS-QA-02"
-                  ],
-                  "source": "OSPS"
                 }
               ]
             }
@@ -3042,12 +2648,6 @@
                     "SC-V Authenticate and monitor repository activity"
                   ],
                   "source": "CNCF-SSC"
-                },
-                {
-                  "sections": [
-                    "I-SB-1-A"
-                  ],
-                  "source": "SAMM"
                 }
               ]
             },
@@ -3109,12 +2709,6 @@
                     "Source L1:  Version controlled"
                   ],
                   "source": "SLSA"
-                },
-                {
-                  "sections": [
-                    "I-SB-1-A"
-                  ],
-                  "source": "SAMM"
                 }
               ]
             },
@@ -3422,12 +3016,6 @@
                     "3"
                   ],
                   "source": "Self-attestation"
-                },
-                {
-                  "sections": [
-                    "I-SB-1-A"
-                  ],
-                  "source": "SAMM"
                 }
               ]
             },
@@ -3534,12 +3122,6 @@
                     "4"
                   ],
                   "source": "Self-attestation"
-                },
-                {
-                  "sections": [
-                    "I-SB-1-A"
-                  ],
-                  "source": "SAMM"
                 }
               ]
             },
@@ -3807,18 +3389,6 @@
                     "1a", "1b", "1c", "1d", "1e", "1f", "2", "3"
                   ],
                   "source": "Self-attestation"
-                },
-                {
-                  "sections": [
-                    "O-EM-2-A",
-                    "O-OM-2-A",
-                    "I-SD-1-B",
-                    "O-IM-2-A",
-                    "O-EM-2-B",
-                    "I-SB-2-A",
-                    "G-PC-1-A"
-                  ],
-                  "source": "SAMM"
                 }
               ]
             },
@@ -4128,12 +3698,6 @@
                     "SA-15"
                   ],
                   "source": "800-161"
-                },
-                {
-                  "sections": [
-                    "I-DM-2-A"
-                  ],
-                  "source": "SAMM"
                 }
               ]
             },
@@ -4265,12 +3829,6 @@
                 },
                 {
                   "sections": [
-                    "I-DM-2-A"
-                  ],
-                  "source": "SAMM"
-                },
-                {
-                  "sections": [
                     "security-policy"
                   ],
                   "source": "OSSF-Scorecard"
@@ -4325,12 +3883,6 @@
                     "SI-2"
                   ],
                   "source": "800-161"
-                },
-                {
-                  "sections": [
-                    "I-DM-3-B"
-                  ],
-                  "source": "SAMM"
                 }
               ]
             },
@@ -4376,14 +3928,6 @@
                     "CP3.3, CMVM3.2"
                   ],
                   "source": "BSIMM"
-                },
-                {
-                  "sections": [
-                    "I-DM-2-A",
-                    "G-SM-2-B",
-                    "I-DM-3-B"
-                  ],
-                  "source": "SAMM"
                 }
               ]
             }
@@ -4512,18 +4056,7 @@
                     "AUD-2"
                   ],
                   "source": "S2C2F"
-                },
-                {
-                  "sections": [
-                     "OSPS-AC-03",
-                     "OSPS-BR-01",
-                     "OSPS-BR-05",
-                     "OSPS-QA-01",
-                     "OSPS-QA-03",
-                     "OSPS-QA-07"
-                  ],
-                  "source": "OSPS"
-                }          
+                }       
 
               ]
             },
@@ -4622,9 +4155,7 @@
   ],
   "pending_metadata": [
         {"id":"S2C2F", "title": "OpenSSF Secure Supply Chain Consumption Framework", "link":"https://github.com/ossf/s2c2f"},
-        {"id":"OSPS","title":"Open Source Project Security (OSPS) Baseline","link":"https://baseline.openssf.org/versions/2025-02-25"},
-        {"id":"Closing", "title":"Closing the Chain", "link":"https://arxiv.org/pdf/2503.12192"},
-        {"id":"SAMM", "title":"OWASP SAMM-SSDF Mapping (SAMM)", "link":"https://docs.google.com/spreadsheets/d/1AsIbEHK_csuYkUx8tSZvHBFlywYZ5wBejfJHi8AvnZM/edit?gid=2133626997#gid=2133626997"}
+        {"id":"Closing", "title":"Closing the Chain", "link":"https://arxiv.org/pdf/2503.12192"}
   ],
   "metadata": [
     {"id":"P-SSCRM", "title":"Proactive Software Supply Chain Risk Management", "link":"https://p-sscrm.github.io" },
